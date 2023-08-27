@@ -59,7 +59,12 @@
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
 <script>
-
+ window.addEventListener("keypress", function (e) {
+  if (e.key == "a"){
+    console.log("Du hast a gedrückt!");
+  }else{
+  console.log(e.key)}}
+  );
 </script>
 
 
